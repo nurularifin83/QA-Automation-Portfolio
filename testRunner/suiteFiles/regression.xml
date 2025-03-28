@@ -2,7 +2,7 @@
 <suite name="Orangehrm_Sanity_Suite" parallel="tests">
     <groups>
         <run>
-            <include name="regression"></include>
+            <include name="regression1"></include>
         </run>
     </groups>
 
@@ -17,7 +17,7 @@
     </test>
     <test name="Orangehrm_ForgotPasswordPage_Regression_Test">
         <classes>
-            <class name="com.orangehrm.tests.ForgotPasswordTest"/>
+            <class name="com.orangehrm.tests.ForgotPasswordPageTest"/>
         </classes>
     </test>
 </suite>

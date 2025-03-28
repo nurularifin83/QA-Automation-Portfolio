@@ -23,6 +23,8 @@ public class LoginPageTest extends BaseTest {
 
     @Test(groups = { "regression" })
     public void testLoginWithEmptyFields(){
+        loginPage.enterUsername("");
+        loginPage.enterPassword("");
         loginPage.clickOnLoginButton();
         Assert.assertEquals(loginPage.readRequiredMessage(),"Required",
                 "\n Actual & Expected message do not match. \n");

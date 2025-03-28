@@ -25,7 +25,7 @@ public class HomePage extends BasePage {
 
     // Getter
     public WebElement getForgotYourPasswordLink(){
-        customWait.waitForVisibilityOfElement(forgotYourPasswordLink);
+        customWait.waitForElementToBeClickable(forgotYourPasswordLink);
         return forgotYourPasswordLink;
     }
 

@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class ForgotPasswordPageTest extends BaseTest {
 
     @BeforeMethod(alwaysRun = true)
-    public void setUpPage(){
+    public void setUpPageForgotPassword(){
         homePage.clickOnForgotYourPassword();
     }
 
@@ -17,6 +17,5 @@ public class ForgotPasswordPageTest extends BaseTest {
         Assert.assertEquals(forgotPasswordPage.readHeaderText(), "Reset Password",
                 "\n Actual & Expected Header Text do not match. \n");
     }
-
 
 }

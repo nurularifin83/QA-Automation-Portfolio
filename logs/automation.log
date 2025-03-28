@@ -842,3 +842,86 @@ Session ID: 64398322368bb6efbc50de0e67c61a25
 =2025-03-28 14:49:07 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordPageTest => testForgotPasswordHeaderText
 =2025-03-28 14:49:08 [TestNG-tests-1] INFO  - Test Successful: ForgotPasswordPageTest => testForgotPasswordHeaderText
 =2025-03-28 14:49:08 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 15:29:48 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 15:29:48 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_ForgotPasswordPage_Sanity_Test
+=2025-03-28 15:29:51 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 15:29:56 [TestNG-tests-1] INFO  - Clicked on the Forgot Password Link.
+=2025-03-28 15:29:56 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordPageTest => testForgotPasswordHeaderText
+=2025-03-28 15:29:57 [TestNG-tests-1] INFO  - Test Successful: ForgotPasswordPageTest => testForgotPasswordHeaderText
+=2025-03-28 15:29:57 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 15:29:59 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 15:30:04 [TestNG-tests-1] INFO  - Clicked on the Forgot Password Link.
+=2025-03-28 15:30:04 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordPageTest => testPageTitle
+=2025-03-28 15:30:04 [TestNG-tests-1] INFO  - Test Successful: ForgotPasswordPageTest => testPageTitle
+=2025-03-28 15:30:04 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 15:31:24 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 15:31:24 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_ForgotPasswordPage_Sanity_Test
+=2025-03-28 15:31:27 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 15:31:31 [TestNG-tests-1] INFO  - Clicked on the Forgot Password Link.
+=2025-03-28 15:31:31 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordPageTest => testForgotPasswordHeaderText
+=2025-03-28 15:31:32 [TestNG-tests-1] INFO  - Test Successful: ForgotPasswordPageTest => testForgotPasswordHeaderText
+=2025-03-28 15:31:32 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 15:31:34 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 15:31:38 [TestNG-tests-1] INFO  - Clicked on the Forgot Password Link.
+=2025-03-28 15:31:38 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordPageTest => testForgotPasswordPageTitle
+=2025-03-28 15:31:38 [TestNG-tests-1] INFO  - Test Successful: ForgotPasswordPageTest => testForgotPasswordPageTitle
+=2025-03-28 15:31:39 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 15:32:13 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 15:32:14 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_ForgotPasswordPage_Sanity_Test
+=2025-03-28 15:32:59 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 15:33:00 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_ForgotPasswordPage_Sanity_Test
+=2025-03-28 15:33:03 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 15:33:08 [TestNG-tests-1] INFO  - Clicked on the Forgot Password Link.
+=2025-03-28 15:33:08 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordPageTest => testForgotPasswordPageTitle
+=2025-03-28 15:33:08 [TestNG-tests-1] INFO  - Test Successful: ForgotPasswordPageTest => testForgotPasswordPageTitle
+=2025-03-28 15:33:08 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 15:33:27 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 15:33:27 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_ForgotPasswordPage_Sanity_Test
+=2025-03-28 15:33:30 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 15:33:34 [TestNG-tests-1] INFO  - Clicked on the Forgot Password Link.
+=2025-03-28 15:33:34 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordPageTest => testForgotPasswordHeaderText
+=2025-03-28 15:33:34 [TestNG-tests-1] INFO  - Test Successful: ForgotPasswordPageTest => testForgotPasswordHeaderText
+=2025-03-28 15:33:35 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 15:35:48 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 15:35:49 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_ForgotPasswordPage_Sanity_Test
+=2025-03-28 15:35:53 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 15:35:58 [TestNG-tests-1] INFO  - Clicked on the Forgot Password Link.
+=2025-03-28 15:35:58 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordPageTest => testForgotPasswordPageTitle
+=2025-03-28 15:35:58 [TestNG-tests-1] INFO  - Test Successful: ForgotPasswordPageTest => testForgotPasswordPageTitle
+=2025-03-28 15:35:58 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 15:36:49 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 15:36:49 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_ForgotPasswordPage_Sanity_Test
+=2025-03-28 15:36:52 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 15:36:58 [TestNG-tests-1] INFO  - Clicked on the Forgot Password Link.
+=2025-03-28 15:36:58 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordPageTest => testForgotPasswordPageTitle
+=2025-03-28 15:36:58 [TestNG-tests-1] INFO  - Test Successful: ForgotPasswordPageTest => testForgotPasswordPageTitle
+=2025-03-28 15:36:58 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 15:37:45 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 15:37:45 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_ForgotPasswordPage_Sanity_Test
+=2025-03-28 15:37:48 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 15:37:53 [TestNG-tests-1] INFO  - Clicked on the Forgot Password Link.
+=2025-03-28 15:37:53 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordPageTest => testForgotPasswordPageTitle
+=2025-03-28 15:37:53 [TestNG-tests-1] INFO  - Test Skipped: ForgotPasswordPageTest => testForgotPasswordPageTitle
+=2025-03-28 15:37:54 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 15:37:55 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 15:38:00 [TestNG-tests-1] INFO  - Clicked on the Forgot Password Link.
+=2025-03-28 15:38:00 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordPageTest => testForgotPasswordPageTitle
+=2025-03-28 15:38:00 [TestNG-tests-1] INFO  - Test Failed: ForgotPasswordPageTest => testForgotPasswordPageTitle
+=2025-03-28 15:38:01 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 15:45:12 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 15:45:12 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_ForgotPasswordPage_Sanity_Test
+=2025-03-28 15:45:15 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 15:45:22 [TestNG-tests-1] INFO  - Clicked on the Forgot Password Link.
+=2025-03-28 15:45:22 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordPageTest => testForgotPasswordHeaderText
+=2025-03-28 15:45:22 [TestNG-tests-1] INFO  - Test Successful: ForgotPasswordPageTest => testForgotPasswordHeaderText
+=2025-03-28 15:45:23 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 15:47:20 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => regression1
+=2025-03-28 15:47:20 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Regression_Test
+=2025-03-28 15:47:20 [TestNG-tests-2] INFO  - Starting Execution for Test=> Orangehrm_ForgotPasswordPage_Regression_Test
+=2025-03-28 15:47:23 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 15:47:27 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 15:47:27 [TestNG-tests-1] INFO  - Entered username: 
+=2025-03-28 15:47:27 [TestNG-tests-1] INFO  - Entered password: 
+=2025-03-28 15:47:28 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-28 15:47:28 [TestNG-tests-1] INFO  - Test Successful: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 15:47:28 [TestNG-tests-1] INFO  - Closing the browser - Chrome
