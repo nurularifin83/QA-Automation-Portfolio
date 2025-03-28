@@ -14,12 +14,13 @@ Berikut skenario pengujian yang dilakukan:
 
 ## 🛠️ Tools yang Digunakan
 - **IntelliJ IDEA** - IDE untuk pengembangan
-- **Java (JDK 11+)** - Bahasa pemrograman
+- **Java (JDK 21+)** - Bahasa pemrograman
 - **Selenium WebDriver** - Automasi browser
 - **TestNG** - Framework untuk menjalankan test
 - **Maven** - Manajemen dependensi
 - **ExtentReports** - Generate laporan hasil testing
-- **GitHub Actions (Opsional)** - CI/CD untuk menjalankan test otomatis
+- **Jenkins** - CI/CD untuk menjalankan test otomatis
+- **GitHub Actions** - Alternatif CI/CD jika diperlukan
 
 ---
 
