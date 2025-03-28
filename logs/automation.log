@@ -1,0 +1,844 @@
+=2025-03-26 21:24:18 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-26 21:33:05 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-26 21:33:06 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-26 21:33:39 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-26 21:33:39 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-26 21:34:17 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-26 21:34:18 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-26 21:34:28 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-26 21:34:32 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => verifyLogo
+=2025-03-26 21:34:32 [TestNG-tests-1] ERROR - Logo is not present on the page: 
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.28.1.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy29.isDisplayed(Unknown Source) ~[?:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.28.1.jar:?]
+	at com.orangehrm.utils.CustomWait.waitForVisibilityOfElement(CustomWait.java:24) ~[classes/:?]
+	at com.orangehrm.base.BasePage.getLogo(BasePage.java:54) ~[classes/:?]
+	at com.orangehrm.base.BasePage.verifyLogo(BasePage.java:67) ~[classes/:?]
+	at com.orangehrm.tests.LoginPageTest.verifyLogo(LoginPageTest.java:13) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+=2025-03-26 21:34:32 [TestNG-tests-1] INFO  - Test Skipped: LoginPageTest => verifyLogo
+=2025-03-26 21:34:32 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-26 21:34:34 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-26 21:34:39 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => verifyLogo
+=2025-03-26 21:34:39 [TestNG-tests-1] ERROR - Logo is not present on the page: 
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.28.1.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy29.isDisplayed(Unknown Source) ~[?:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.28.1.jar:?]
+	at com.orangehrm.utils.CustomWait.waitForVisibilityOfElement(CustomWait.java:24) ~[classes/:?]
+	at com.orangehrm.base.BasePage.getLogo(BasePage.java:54) ~[classes/:?]
+	at com.orangehrm.base.BasePage.verifyLogo(BasePage.java:67) ~[classes/:?]
+	at com.orangehrm.tests.LoginPageTest.verifyLogo(LoginPageTest.java:13) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+=2025-03-26 21:34:39 [TestNG-tests-1] INFO  - Test Failed: LoginPageTest => verifyLogo
+=2025-03-26 21:34:39 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-26 21:36:44 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-26 21:36:44 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-26 21:36:47 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-26 21:36:55 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => verifyLogo
+=2025-03-26 21:36:55 [TestNG-tests-1] INFO  - Test Skipped: LoginPageTest => verifyLogo
+=2025-03-26 21:36:55 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-26 21:36:57 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-26 21:37:01 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => verifyLogo
+=2025-03-26 21:37:01 [TestNG-tests-1] INFO  - Test Failed: LoginPageTest => verifyLogo
+=2025-03-26 21:37:01 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-26 21:40:42 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-26 21:40:42 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-26 21:40:45 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-26 21:40:49 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => verifyLogo
+=2025-03-26 21:40:52 [TestNG-tests-1] INFO  - Test Successful: LoginPageTest => verifyLogo
+=2025-03-26 21:40:53 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-26 21:46:34 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-26 21:46:34 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-26 21:46:37 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-26 21:46:44 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => verifyTitle
+=2025-03-26 21:46:44 [TestNG-tests-1] INFO  - Test Successful: LoginPageTest => verifyTitle
+=2025-03-26 21:46:44 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-26 22:02:04 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-26 22:02:04 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-26 22:02:07 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-26 22:02:10 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginPageTitle
+=2025-03-26 22:02:10 [TestNG-tests-1] INFO  - Test Skipped: LoginPageTest => testLoginPageTitle
+=2025-03-26 22:02:11 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-26 22:02:12 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-26 22:02:16 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginPageTitle
+=2025-03-26 22:02:16 [TestNG-tests-1] INFO  - Test Failed: LoginPageTest => testLoginPageTitle
+=2025-03-26 22:02:17 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-26 22:03:51 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-26 22:03:51 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-26 22:03:54 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-26 22:03:57 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginPageTitle
+=2025-03-26 22:03:57 [TestNG-tests-1] INFO  - Test Successful: LoginPageTest => testLoginPageTitle
+=2025-03-26 22:03:57 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-26 22:03:59 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-26 22:04:14 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLogoPresence
+=2025-03-26 22:04:16 [TestNG-tests-1] INFO  - Test Successful: LoginPageTest => testLogoPresence
+=2025-03-26 22:04:16 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 12:00:01 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 12:00:01 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-28 12:00:06 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 12:00:10 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:00:11 [TestNG-tests-1] INFO  - Entered username: dsadsa
+=2025-03-28 12:00:11 [TestNG-tests-1] INFO  - Entered password: 123asds
+=2025-03-28 12:00:21 [TestNG-tests-1] ERROR - Failed to read the error message.
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'oxd-alert-content--error')]//p"}
+  (Session info: chrome=134.0.6998.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [58182001c16ad02d94eed07d7637360d, findElement {value=//div[contains(@class, 'oxd-alert-content--error')]//p, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\nurul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54865}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54865/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 58182001c16ad02d94eed07d7637360d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.28.1.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy29.getText(Unknown Source) ~[?:?]
+	at com.orangehrm.pages.LoginPage.readErrorMessage(LoginPage.java:51) ~[classes/:?]
+	at com.orangehrm.tests.LoginPageTest.testLoginWithEmptyFields(LoginPageTest.java:25) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+=2025-03-28 12:00:21 [TestNG-tests-1] INFO  - Test Skipped: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:00:22 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 12:00:24 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 12:00:27 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:00:29 [TestNG-tests-1] INFO  - Entered username: dsadsa
+=2025-03-28 12:00:29 [TestNG-tests-1] INFO  - Entered password: 123asds
+=2025-03-28 12:00:39 [TestNG-tests-1] ERROR - Failed to read the error message.
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'oxd-alert-content--error')]//p"}
+  (Session info: chrome=134.0.6998.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab36ba764e957c10860949a92a796bcb, findElement {value=//div[contains(@class, 'oxd-alert-content--error')]//p, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\nurul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54896}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54896/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab36ba764e957c10860949a92a796bcb
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.28.1.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy29.getText(Unknown Source) ~[?:?]
+	at com.orangehrm.pages.LoginPage.readErrorMessage(LoginPage.java:51) ~[classes/:?]
+	at com.orangehrm.tests.LoginPageTest.testLoginWithEmptyFields(LoginPageTest.java:25) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+=2025-03-28 12:00:39 [TestNG-tests-1] INFO  - Test Failed: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:00:40 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 12:00:42 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 12:00:45 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLogoPresence
+=2025-03-28 12:00:47 [TestNG-tests-1] INFO  - Test Successful: LoginPageTest => testLogoPresence
+=2025-03-28 12:00:47 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 12:06:31 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 12:06:31 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-28 12:06:35 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 12:06:38 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:06:39 [TestNG-tests-1] INFO  - Entered username: dsadsa
+=2025-03-28 12:06:40 [TestNG-tests-1] INFO  - Entered password: 123asds
+=2025-03-28 12:06:40 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-28 12:06:41 [TestNG-tests-1] INFO  - Test Successful: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:06:42 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 12:06:43 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 12:06:48 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLogoPresence
+=2025-03-28 12:06:49 [TestNG-tests-1] INFO  - Test Successful: LoginPageTest => testLogoPresence
+=2025-03-28 12:06:50 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 12:16:21 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 12:16:22 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-28 12:16:25 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 12:16:29 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:16:29 [TestNG-tests-1] INFO  - Test Skipped: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:16:30 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 12:16:32 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 12:16:36 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:16:36 [TestNG-tests-1] INFO  - Test Failed: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:16:37 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 12:17:36 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 12:17:37 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-28 12:17:40 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 12:17:43 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:17:44 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-28 12:17:44 [TestNG-tests-1] INFO  - Test Skipped: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:17:45 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 12:17:47 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 12:17:54 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:17:56 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-28 12:17:56 [TestNG-tests-1] INFO  - Test Failed: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:17:57 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 12:34:39 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 12:34:40 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-28 12:34:45 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 12:34:49 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:34:50 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-28 12:34:50 [TestNG-tests-1] ERROR - Failed to read the error message.
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message' and text()='Required'])[1]
+ because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message' and text()='Required'])[1]
+' is not a valid XPath expression.
+  (Session info: chrome=134.0.6998.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07e414a164bea91a2319bb76cbc963c4, findElement {using=xpath, value=//span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message' and text()='Required'])[1]
+}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\nurul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56183}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56183/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07e414a164bea91a2319bb76cbc963c4
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.28.1.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy29.isDisplayed(Unknown Source) ~[?:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.28.1.jar:?]
+	at com.orangehrm.utils.CustomWait.waitForVisibilityOfElement(CustomWait.java:24) ~[classes/:?]
+	at com.orangehrm.pages.LoginPage.getRequiredMessage(LoginPage.java:40) ~[classes/:?]
+	at com.orangehrm.pages.LoginPage.readRequiredMessage(LoginPage.java:67) ~[classes/:?]
+	at com.orangehrm.tests.LoginPageTest.testLoginWithEmptyFields(LoginPageTest.java:24) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+=2025-03-28 12:34:50 [TestNG-tests-1] INFO  - Test Skipped: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:34:50 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 12:34:54 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 12:34:57 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:34:58 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-28 12:34:58 [TestNG-tests-1] ERROR - Failed to read the error message.
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message' and text()='Required'])[1]
+ because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message' and text()='Required'])[1]
+' is not a valid XPath expression.
+  (Session info: chrome=134.0.6998.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07ef61d94ff9817ae5f4f7f10efb71ba, findElement {using=xpath, value=//span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message' and text()='Required'])[1]
+}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\nurul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56214}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56214/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07ef61d94ff9817ae5f4f7f10efb71ba
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.28.1.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy29.isDisplayed(Unknown Source) ~[?:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.28.1.jar:?]
+	at com.orangehrm.utils.CustomWait.waitForVisibilityOfElement(CustomWait.java:24) ~[classes/:?]
+	at com.orangehrm.pages.LoginPage.getRequiredMessage(LoginPage.java:40) ~[classes/:?]
+	at com.orangehrm.pages.LoginPage.readRequiredMessage(LoginPage.java:67) ~[classes/:?]
+	at com.orangehrm.tests.LoginPageTest.testLoginWithEmptyFields(LoginPageTest.java:24) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+=2025-03-28 12:34:58 [TestNG-tests-1] INFO  - Test Failed: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:35:00 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 12:37:18 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 12:37:19 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-28 12:37:23 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 12:37:27 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:37:29 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-28 12:37:29 [TestNG-tests-1] ERROR - Failed to read the error message.
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message' and text()='Required'])[1]
+ because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message' and text()='Required'])[1]
+' is not a valid XPath expression.
+  (Session info: chrome=134.0.6998.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [be38ef358183febddecfa55e6e5fb2c4, findElement {using=xpath, value=//span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message' and text()='Required'])[1]
+}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\nurul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56346}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56346/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: be38ef358183febddecfa55e6e5fb2c4
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.28.1.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy29.isDisplayed(Unknown Source) ~[?:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.28.1.jar:?]
+	at com.orangehrm.utils.CustomWait.waitForVisibilityOfElement(CustomWait.java:24) ~[classes/:?]
+	at com.orangehrm.pages.LoginPage.getRequiredMessage(LoginPage.java:40) ~[classes/:?]
+	at com.orangehrm.pages.LoginPage.readRequiredMessage(LoginPage.java:67) ~[classes/:?]
+	at com.orangehrm.tests.LoginPageTest.testLoginWithEmptyFields(LoginPageTest.java:24) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+=2025-03-28 12:37:29 [TestNG-tests-1] INFO  - Test Skipped: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:37:29 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 12:37:32 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 12:37:37 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:37:37 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-28 12:37:38 [TestNG-tests-1] ERROR - Failed to read the error message.
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message' and text()='Required'])[1]
+ because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message' and text()='Required'])[1]
+' is not a valid XPath expression.
+  (Session info: chrome=134.0.6998.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f4bdc8c5b99abdb152781b47cea9495e, findElement {using=xpath, value=//span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message' and text()='Required'])[1]
+}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\nurul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56372}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56372/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f4bdc8c5b99abdb152781b47cea9495e
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.28.1.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy29.isDisplayed(Unknown Source) ~[?:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.28.1.jar:?]
+	at com.orangehrm.utils.CustomWait.waitForVisibilityOfElement(CustomWait.java:24) ~[classes/:?]
+	at com.orangehrm.pages.LoginPage.getRequiredMessage(LoginPage.java:40) ~[classes/:?]
+	at com.orangehrm.pages.LoginPage.readRequiredMessage(LoginPage.java:67) ~[classes/:?]
+	at com.orangehrm.tests.LoginPageTest.testLoginWithEmptyFields(LoginPageTest.java:24) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+=2025-03-28 12:37:38 [TestNG-tests-1] INFO  - Test Failed: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:37:39 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 12:39:45 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 12:39:46 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-28 12:39:54 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 12:39:59 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:40:01 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-28 12:40:01 [TestNG-tests-1] INFO  - Test Successful: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:40:02 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 12:40:54 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 12:40:54 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-28 12:41:00 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 12:41:01 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:41:05 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-28 12:41:05 [TestNG-tests-1] INFO  - Test Skipped: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:41:06 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 12:41:08 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 12:41:11 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:41:12 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-28 12:41:13 [TestNG-tests-1] INFO  - Test Failed: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:41:13 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 12:47:19 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 12:47:20 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-28 12:47:25 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 12:47:29 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:47:30 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-28 12:47:30 [TestNG-tests-1] INFO  - Test Successful: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 12:47:30 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 13:22:49 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 13:22:50 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-28 13:22:58 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 13:23:02 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 13:23:03 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-28 13:23:03 [TestNG-tests-1] INFO  - Test Successful: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 13:23:04 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 13:23:22 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 13:23:23 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-28 13:23:27 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 13:23:31 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 13:23:32 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-28 13:23:32 [TestNG-tests-1] INFO  - Test Successful: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 13:23:33 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 13:23:36 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 13:23:37 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithValidCredentials
+=2025-03-28 13:23:40 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-28 13:23:41 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-28 13:23:41 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-28 13:23:43 [TestNG-tests-1] INFO  - Test Skipped: LoginPageTest => testLoginWithValidCredentials
+=2025-03-28 13:23:43 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 13:23:46 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 13:23:49 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithValidCredentials
+=2025-03-28 13:23:50 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-28 13:23:51 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-28 13:23:51 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-28 13:23:53 [TestNG-tests-1] INFO  - Test Failed: LoginPageTest => testLoginWithValidCredentials
+=2025-03-28 13:23:55 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 13:25:12 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 13:25:13 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-28 13:25:18 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 13:25:22 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 13:25:23 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-28 13:25:23 [TestNG-tests-1] INFO  - Test Successful: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 13:25:24 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 13:25:27 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 13:25:30 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithValidCredentials
+=2025-03-28 13:25:31 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-28 13:25:31 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-28 13:25:32 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-28 13:25:34 [TestNG-tests-1] INFO  - Test Successful: LoginPageTest => testLoginWithValidCredentials
+=2025-03-28 13:25:34 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 13:33:10 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => regression
+=2025-03-28 13:33:11 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-28 13:33:15 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 13:33:19 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 13:33:20 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-28 13:33:21 [TestNG-tests-1] INFO  - Test Successful: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 13:33:22 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 13:33:25 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 13:33:29 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithSQLInjection
+=2025-03-28 13:33:30 [TestNG-tests-1] INFO  - Entered username: ' OR 1=1 --
+=2025-03-28 13:33:30 [TestNG-tests-1] INFO  - Entered password: dasdsa
+=2025-03-28 13:33:30 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-28 13:33:30 [TestNG-tests-1] INFO  - What happend?
+=2025-03-28 13:33:30 [TestNG-tests-1] INFO  - Test Successful: LoginPageTest => testLoginWithSQLInjection
+=2025-03-28 13:33:31 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 13:33:33 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 13:33:40 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithUnregisterUsernameAndPassword
+=2025-03-28 13:33:43 [TestNG-tests-1] INFO  - Entered username: dsadsa
+=2025-03-28 13:33:43 [TestNG-tests-1] INFO  - Entered password: 123asds
+=2025-03-28 13:33:44 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-28 13:33:45 [TestNG-tests-1] INFO  - Test Successful: LoginPageTest => testLoginWithUnregisterUsernameAndPassword
+=2025-03-28 13:33:46 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 13:33:48 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 13:34:03 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithValidCredentials
+=2025-03-28 13:34:06 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-28 13:34:06 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-28 13:34:06 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-28 13:34:13 [TestNG-tests-1] INFO  - Test Successful: LoginPageTest => testLoginWithValidCredentials
+=2025-03-28 13:34:13 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 13:35:20 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => regression
+=2025-03-28 13:35:21 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-28 13:35:25 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 13:35:26 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 13:35:30 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-28 13:35:30 [TestNG-tests-1] INFO  - Test Successful: LoginPageTest => testLoginWithEmptyFields
+=2025-03-28 13:35:30 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 13:35:33 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 13:35:37 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithSQLInjection
+=2025-03-28 13:35:38 [TestNG-tests-1] INFO  - Entered username: ' OR 1=1 --
+=2025-03-28 13:35:38 [TestNG-tests-1] INFO  - Entered password: dasdsdsadsa
+=2025-03-28 13:35:39 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-28 13:35:40 [TestNG-tests-1] INFO  - Test Successful: LoginPageTest => testLoginWithSQLInjection
+=2025-03-28 13:35:40 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 13:35:43 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 13:35:47 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithUnregisterUsernameAndPassword
+=2025-03-28 13:35:48 [TestNG-tests-1] INFO  - Entered username: dsadsa
+=2025-03-28 13:35:48 [TestNG-tests-1] INFO  - Entered password: 123asds
+=2025-03-28 13:35:50 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-28 13:35:50 [TestNG-tests-1] INFO  - Test Successful: LoginPageTest => testLoginWithUnregisterUsernameAndPassword
+=2025-03-28 13:35:51 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 13:35:54 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 13:35:59 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => testLoginWithValidCredentials
+=2025-03-28 13:36:00 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-28 13:36:01 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-28 13:36:01 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-28 13:36:03 [TestNG-tests-1] INFO  - Test Successful: LoginPageTest => testLoginWithValidCredentials
+=2025-03-28 13:36:04 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 13:51:17 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 13:51:17 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-28 13:51:21 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 13:51:25 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => fieldsOnThePageTest
+=2025-03-28 13:51:27 [TestNG-tests-1] INFO  - Test Successful: LoginPageTest => fieldsOnThePageTest
+=2025-03-28 13:51:27 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 13:59:28 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 13:59:29 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-28 13:59:31 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 13:59:36 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => fieldsOnThePageTest
+=2025-03-28 13:59:37 [TestNG-tests-1] INFO  - Test Skipped: LoginPageTest => fieldsOnThePageTest
+=2025-03-28 13:59:37 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 13:59:39 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 13:59:42 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => fieldsOnThePageTest
+=2025-03-28 13:59:42 [TestNG-tests-1] INFO  - Test Failed: LoginPageTest => fieldsOnThePageTest
+=2025-03-28 13:59:43 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 14:00:12 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 14:00:12 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-28 14:00:15 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 14:00:19 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => fieldsOnThePageTest
+=2025-03-28 14:00:22 [TestNG-tests-1] INFO  - Test Successful: LoginPageTest => fieldsOnThePageTest
+=2025-03-28 14:00:22 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 14:01:05 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 14:01:06 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-28 14:01:08 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 14:01:12 [TestNG-tests-1] INFO  - Started Test: LoginPageTest => fieldsOnThePageTest
+=2025-03-28 14:01:13 [TestNG-tests-1] INFO  - Test Successful: LoginPageTest => fieldsOnThePageTest
+=2025-03-28 14:01:14 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 14:14:07 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity
+=2025-03-28 14:14:08 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_ForgotPasswordPage_Sanity_Test
+=2025-03-28 14:14:10 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 14:14:14 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordTest => testLoginPageTitle
+=2025-03-28 14:14:14 [TestNG-tests-1] INFO  - Test Successful: ForgotPasswordTest => testLoginPageTitle
+=2025-03-28 14:14:14 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 14:14:16 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 14:14:19 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordTest => testLogoPresence
+=2025-03-28 14:14:21 [TestNG-tests-1] INFO  - Test Successful: ForgotPasswordTest => testLogoPresence
+=2025-03-28 14:14:21 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 14:34:18 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity
+=2025-03-28 14:34:19 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_ForgotPasswordPage_Sanity_Test
+=2025-03-28 14:34:22 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 14:34:28 [TestNG-tests-1] INFO  - Clicked on the Forgot Password Link.
+=2025-03-28 14:34:28 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordTest => testForgotPasswordHeaderText
+=2025-03-28 14:34:29 [TestNG-tests-1] INFO  - Test Successful: ForgotPasswordTest => testForgotPasswordHeaderText
+=2025-03-28 14:34:29 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 14:34:31 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 14:34:35 [TestNG-tests-1] INFO  - Clicked on the Forgot Password Link.
+=2025-03-28 14:34:35 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordTest => testLoginPageTitle
+=2025-03-28 14:34:35 [TestNG-tests-1] INFO  - Test Successful: ForgotPasswordTest => testLoginPageTitle
+=2025-03-28 14:34:36 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 14:34:58 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity
+=2025-03-28 14:34:58 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_ForgotPasswordPage_Sanity_Test
+=2025-03-28 14:35:00 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 14:35:06 [TestNG-tests-1] INFO  - Clicked on the Forgot Password Link.
+=2025-03-28 14:35:06 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordTest => testForgotPasswordHeaderText
+=2025-03-28 14:35:07 [TestNG-tests-1] INFO  - Test Skipped: ForgotPasswordTest => testForgotPasswordHeaderText
+=2025-03-28 14:35:07 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 14:35:09 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 14:35:14 [TestNG-tests-1] INFO  - Clicked on the Forgot Password Link.
+=2025-03-28 14:35:14 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordTest => testForgotPasswordHeaderText
+=2025-03-28 14:35:14 [TestNG-tests-1] INFO  - Test Failed: ForgotPasswordTest => testForgotPasswordHeaderText
+=2025-03-28 14:35:15 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 14:35:17 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 14:35:22 [TestNG-tests-1] INFO  - Clicked on the Forgot Password Link.
+=2025-03-28 14:35:22 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordTest => testLoginPageTitle
+=2025-03-28 14:35:22 [TestNG-tests-1] INFO  - Test Successful: ForgotPasswordTest => testLoginPageTitle
+=2025-03-28 14:35:22 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 14:36:31 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity
+=2025-03-28 14:36:31 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_ForgotPasswordPage_Sanity_Test
+=2025-03-28 14:36:34 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 14:36:38 [TestNG-tests-1] INFO  - Clicked on the Forgot Password Link.
+=2025-03-28 14:36:38 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordTest => testForgotPasswordHeaderText
+=2025-03-28 14:36:39 [TestNG-tests-1] INFO  - Test Successful: ForgotPasswordTest => testForgotPasswordHeaderText
+=2025-03-28 14:36:39 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 14:36:41 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 14:36:46 [TestNG-tests-1] INFO  - Clicked on the Forgot Password Link.
+=2025-03-28 14:36:46 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordTest => testForgotPasswordPageTitle
+=2025-03-28 14:36:46 [TestNG-tests-1] INFO  - Test Successful: ForgotPasswordTest => testForgotPasswordPageTitle
+=2025-03-28 14:36:46 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 14:44:01 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity
+=2025-03-28 14:44:01 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_ForgotPasswordPage_Sanity_Test
+=2025-03-28 14:44:04 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 14:44:40 [TestNG-tests-1] INFO  - Clicked on the Forgot Password Link.
+=2025-03-28 14:44:40 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordPageTest => testForgotPasswordHeaderText
+=2025-03-28 14:44:41 [TestNG-tests-1] INFO  - Test Successful: ForgotPasswordPageTest => testForgotPasswordHeaderText
+=2025-03-28 14:44:41 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 14:44:43 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 14:45:02 [TestNG-tests-1] ERROR - Failed to click on the link.
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='oxd-text oxd-text--p orangehrm-login-forgot-header']"}
+  (Session info: chrome=134.0.6998.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [64398322368bb6efbc50de0e67c61a25, findElement {value=//p[@class='oxd-text oxd-text--p orangehrm-login-forgot-header'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\nurul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60666}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60666/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 64398322368bb6efbc50de0e67c61a25
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.28.1.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source) ~[?:?]
+	at com.orangehrm.pages.HomePage.clickOnForgotYourPassword(HomePage.java:35) ~[classes/:?]
+	at com.orangehrm.tests.ForgotPasswordPageTest.setUpPage(ForgotPasswordPageTest.java:12) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+=2025-03-28 14:45:02 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordPageTest => testForgotPasswordPageTitle
+=2025-03-28 14:45:02 [TestNG-tests-1] INFO  - Test Skipped: ForgotPasswordPageTest => testForgotPasswordPageTitle
+=2025-03-28 14:45:03 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 14:46:17 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity
+=2025-03-28 14:46:18 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_ForgotPasswordPage_Sanity_Test
+=2025-03-28 14:46:20 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 14:46:25 [TestNG-tests-1] INFO  - Clicked on the Forgot Password Link.
+=2025-03-28 14:46:25 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordPageTest => testForgotPasswordHeaderText
+=2025-03-28 14:46:25 [TestNG-tests-1] INFO  - Test Successful: ForgotPasswordPageTest => testForgotPasswordHeaderText
+=2025-03-28 14:46:26 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 14:46:27 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 14:46:33 [TestNG-tests-1] INFO  - Clicked on the Forgot Password Link.
+=2025-03-28 14:46:33 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordPageTest => testForgotPasswordPageTitle
+=2025-03-28 14:46:33 [TestNG-tests-1] INFO  - Test Successful: ForgotPasswordPageTest => testForgotPasswordPageTitle
+=2025-03-28 14:46:34 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 14:47:01 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 14:47:01 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_ForgotPasswordPage_Sanity_Test
+=2025-03-28 14:47:04 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 14:47:09 [TestNG-tests-1] INFO  - Clicked on the Forgot Password Link.
+=2025-03-28 14:47:09 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordPageTest => testForgotPasswordPageTitle
+=2025-03-28 14:47:10 [TestNG-tests-1] INFO  - Test Successful: ForgotPasswordPageTest => testForgotPasswordPageTitle
+=2025-03-28 14:47:10 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 14:47:20 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 14:47:20 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_ForgotPasswordPage_Sanity_Test
+=2025-03-28 14:47:23 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 14:47:39 [TestNG-tests-1] INFO  - Clicked on the Forgot Password Link.
+=2025-03-28 14:47:39 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordPageTest => testForgotPasswordPageTitle
+=2025-03-28 14:47:39 [TestNG-tests-1] INFO  - Test Successful: ForgotPasswordPageTest => testForgotPasswordPageTitle
+=2025-03-28 14:47:40 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-28 14:48:59 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-28 14:48:59 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_ForgotPasswordPage_Sanity_Test
+=2025-03-28 14:49:02 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-28 14:49:07 [TestNG-tests-1] INFO  - Clicked on the Forgot Password Link.
+=2025-03-28 14:49:07 [TestNG-tests-1] INFO  - Started Test: ForgotPasswordPageTest => testForgotPasswordHeaderText
+=2025-03-28 14:49:08 [TestNG-tests-1] INFO  - Test Successful: ForgotPasswordPageTest => testForgotPasswordHeaderText
+=2025-03-28 14:49:08 [TestNG-tests-1] INFO  - Closing the browser - Chrome

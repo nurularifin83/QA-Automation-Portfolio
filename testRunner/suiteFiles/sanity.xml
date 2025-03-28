@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Orangehrm_Sanity_Suite" parallel="tests" thread-count="1">
+    <groups>
+        <run>
+            <include name="sanity1" />
+        </run>
+    </groups>
+
+    <listeners>
+        <listener class-name="com.orangehrm.customelisteners.MyListener"></listener>
+    </listeners>
+
+   <!-- <test name="Orangehrm_LoginPage_Sanity_Test">
+        <classes>
+            <class name="com.orangehrm.tests.LoginPageTest"/>
+        </classes>
+    </test>-->
+    <test name="Orangehrm_ForgotPasswordPage_Sanity_Test">
+        <classes>
+            <class name="com.orangehrm.tests.ForgotPasswordPageTest"/>
+        </classes>
+    </test>
+</suite>
