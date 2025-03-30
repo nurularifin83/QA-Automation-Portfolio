@@ -10,7 +10,7 @@
         <listener class-name="com.orangehrm.customelisteners.MyListener"></listener>
     </listeners>
 
-    <test name="Orangehrm_LoginPage_Sanity_Test">
+    <!--<test name="Orangehrm_LoginPage_Sanity_Test">
         <classes>
             <class name="com.orangehrm.tests.LoginPageTest"/>
         </classes>
@@ -18,6 +18,11 @@
     <test name="Orangehrm_ForgotPasswordPage_Sanity_Test">
         <classes>
             <class name="com.orangehrm.tests.ForgotPasswordPageTest"/>
+        </classes>
+    </test>-->
+    <test name="Orangehrm_DashboardPage_Sanity_Test">
+        <classes>
+            <class name="com.orangehrm.tests.DashboardPageTest"/>
         </classes>
     </test>
 </suite>

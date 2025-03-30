@@ -15,9 +15,9 @@
             <class name="com.orangehrm.tests.LoginPageTest"/>
         </classes>
     </test>
-    <test name="Orangehrm_ForgotPasswordPage_Regression_Test">
+    <test name="Orangehrm_DashboardPage_Regression_Test">
         <classes>
-            <class name="com.orangehrm.tests.ForgotPasswordPageTest"/>
+            <class name="com.orangehrm.tests.DashboardPageTest"/>
         </classes>
     </test>
 </suite>

@@ -4,24 +4,24 @@
   <listeners>
     <listener class-name="com.orangehrm.customelisteners.MyListener"/>
   </listeners>
-  <test thread-count="1" parallel="tests" name="Orangehrm_ForgotPasswordPage_Sanity_Test(failed)">
+  <test thread-count="1" parallel="tests" name="Orangehrm_DashboardPage_Sanity_Test(failed)">
     <groups>
       <run>
         <include name="sanity1"/>
       </run>
     </groups>
     <classes>
-      <class name="com.orangehrm.tests.ForgotPasswordPageTest">
+      <class name="com.orangehrm.tests.DashboardPageTest">
         <methods>
           <include name="generateReport"/>
+          <include name="setUpPage"/>
           <include name="beforeSuite"/>
-          <include name="testCancelButton"/>
-          <include name="setUpPageForgotPassword"/>
+          <include name="testChangePasswordWithIncorrectConfirmPassword"/>
           <include name="setUp"/>
           <include name="tearDown"/>
           <include name="setUpTest"/>
         </methods>
-      </class> <!-- com.orangehrm.tests.ForgotPasswordPageTest -->
+      </class> <!-- com.orangehrm.tests.DashboardPageTest -->
     </classes>
-  </test> <!-- Orangehrm_ForgotPasswordPage_Sanity_Test(failed) -->
+  </test> <!-- Orangehrm_DashboardPage_Sanity_Test(failed) -->
 </suite> <!-- Failed suite [Orangehrm_Sanity_Suite] -->

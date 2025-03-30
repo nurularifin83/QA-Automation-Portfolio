@@ -1040,3 +1040,465 @@ Session ID: 64398322368bb6efbc50de0e67c61a25
 =2025-03-30 16:58:43 [TestNG-tests-1] INFO  - Clicked on the Reset Password Button.
 =2025-03-30 16:58:43 [TestNG-tests-1] INFO  - Test Successful: ForgotPasswordPageTest => testLeaveUsernameEmpty
 =2025-03-30 16:58:44 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-30 17:23:08 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-30 17:23:08 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_LoginPage_Sanity_Test
+=2025-03-30 17:23:08 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_ForgotPasswordPage_Sanity_Test
+=2025-03-30 17:23:08 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_DashboardPage_Sanity_Test
+=2025-03-30 17:23:11 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-30 17:23:16 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-30 17:23:16 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-30 17:23:16 [TestNG-tests-1] INFO  - Started Test: DashboardPageTest => testLogoutPage
+=2025-03-30 17:23:27 [TestNG-tests-1] ERROR - Failed to click on profile name.
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='oxd-userdropdown-tab']"}
+  (Session info: chrome=134.0.6998.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1ad9d7c49b9f91db63e51d02aa18f57b, findElement {using=xpath, value=//span[@class='oxd-userdropdown-tab']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\nurul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51122}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51122/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ad9d7c49b9f91db63e51d02aa18f57b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.28.1.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source) ~[?:?]
+	at com.orangehrm.pages.DashboardPage.clickOnProfileName(DashboardPage.java:53) ~[classes/:?]
+	at com.orangehrm.tests.DashboardPageTest.testLogoutPage(DashboardPageTest.java:18) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+=2025-03-30 17:23:27 [TestNG-tests-1] INFO  - Test Skipped: DashboardPageTest => testLogoutPage
+=2025-03-30 17:23:27 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-30 17:23:29 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-30 17:23:33 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-30 17:23:33 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-30 17:23:33 [TestNG-tests-1] INFO  - Started Test: DashboardPageTest => testLogoutPage
+=2025-03-30 17:23:44 [TestNG-tests-1] ERROR - Failed to click on profile name.
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='oxd-userdropdown-tab']"}
+  (Session info: chrome=134.0.6998.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9080ab7b887a42bb7d0aced3803c1d3a, findElement {using=xpath, value=//span[@class='oxd-userdropdown-tab']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\nurul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51152}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51152/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9080ab7b887a42bb7d0aced3803c1d3a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.28.1.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source) ~[?:?]
+	at com.orangehrm.pages.DashboardPage.clickOnProfileName(DashboardPage.java:53) ~[classes/:?]
+	at com.orangehrm.tests.DashboardPageTest.testLogoutPage(DashboardPageTest.java:18) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+=2025-03-30 17:23:44 [TestNG-tests-1] INFO  - Test Failed: DashboardPageTest => testLogoutPage
+=2025-03-30 17:23:45 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-30 17:25:14 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-30 17:25:14 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_DashboardPage_Sanity_Test
+=2025-03-30 17:25:17 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-30 17:25:21 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-30 17:25:21 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-30 17:25:21 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-30 17:25:21 [TestNG-tests-1] INFO  - Started Test: DashboardPageTest => testLogoutPage
+=2025-03-30 17:25:23 [TestNG-tests-1] INFO  - Clicked on profile name.
+=2025-03-30 17:25:25 [TestNG-tests-1] INFO  - Clicked on logout button.
+=2025-03-30 17:25:25 [TestNG-tests-1] INFO  - Test Successful: DashboardPageTest => testLogoutPage
+=2025-03-30 17:25:25 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-30 17:25:40 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-30 17:25:41 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_DashboardPage_Sanity_Test
+=2025-03-30 17:25:43 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-30 17:25:47 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-30 17:25:48 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-30 17:25:48 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-30 17:25:48 [TestNG-tests-1] INFO  - Started Test: DashboardPageTest => testLogoutPage
+=2025-03-30 17:25:50 [TestNG-tests-1] INFO  - Clicked on profile name.
+=2025-03-30 17:25:52 [TestNG-tests-1] INFO  - Clicked on logout button.
+=2025-03-30 17:25:52 [TestNG-tests-1] INFO  - Test Skipped: DashboardPageTest => testLogoutPage
+=2025-03-30 17:25:53 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-30 17:25:54 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-30 17:25:58 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-30 17:25:59 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-30 17:25:59 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-30 17:25:59 [TestNG-tests-1] INFO  - Started Test: DashboardPageTest => testLogoutPage
+=2025-03-30 17:26:01 [TestNG-tests-1] INFO  - Clicked on profile name.
+=2025-03-30 17:26:03 [TestNG-tests-1] INFO  - Clicked on logout button.
+=2025-03-30 17:26:03 [TestNG-tests-1] INFO  - Test Failed: DashboardPageTest => testLogoutPage
+=2025-03-30 17:26:03 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-30 17:26:21 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-30 17:26:22 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_DashboardPage_Sanity_Test
+=2025-03-30 17:26:24 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-30 17:26:28 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-30 17:26:29 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-30 17:26:29 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-30 17:26:29 [TestNG-tests-1] INFO  - Started Test: DashboardPageTest => testLogoutPage
+=2025-03-30 17:26:31 [TestNG-tests-1] INFO  - Clicked on profile name.
+=2025-03-30 17:26:32 [TestNG-tests-1] INFO  - Clicked on logout button.
+=2025-03-30 17:26:32 [TestNG-tests-1] INFO  - Test Successful: DashboardPageTest => testLogoutPage
+=2025-03-30 17:26:33 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-30 17:41:05 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-30 17:41:06 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_DashboardPage_Sanity_Test
+=2025-03-30 17:41:08 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-30 17:41:12 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-30 17:41:12 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-30 17:41:12 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-30 17:41:12 [TestNG-tests-1] INFO  - Started Test: DashboardPageTest => testAboutButton
+=2025-03-30 17:41:14 [TestNG-tests-1] INFO  - Clicked on profile name.
+=2025-03-30 17:41:15 [TestNG-tests-1] INFO  - Clicked on About button.
+=2025-03-30 17:41:15 [TestNG-tests-1] INFO  - Test Successful: DashboardPageTest => testAboutButton
+=2025-03-30 17:41:16 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-30 17:41:43 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-30 17:41:44 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_DashboardPage_Sanity_Test
+=2025-03-30 17:41:46 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-30 17:41:51 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-30 17:41:51 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-30 17:41:51 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-30 17:41:51 [TestNG-tests-1] INFO  - Started Test: DashboardPageTest => testAboutButton
+=2025-03-30 17:41:53 [TestNG-tests-1] INFO  - Clicked on profile name.
+=2025-03-30 17:41:54 [TestNG-tests-1] INFO  - Clicked on About button.
+=2025-03-30 17:41:54 [TestNG-tests-1] INFO  - Test Skipped: DashboardPageTest => testAboutButton
+=2025-03-30 17:41:55 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-30 17:41:57 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-30 17:42:01 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-30 17:42:02 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-30 17:42:02 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-30 17:42:02 [TestNG-tests-1] INFO  - Started Test: DashboardPageTest => testAboutButton
+=2025-03-30 17:42:04 [TestNG-tests-1] INFO  - Clicked on profile name.
+=2025-03-30 17:42:05 [TestNG-tests-1] INFO  - Clicked on About button.
+=2025-03-30 17:42:05 [TestNG-tests-1] INFO  - Test Failed: DashboardPageTest => testAboutButton
+=2025-03-30 17:42:05 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-30 17:42:23 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-30 17:42:23 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_DashboardPage_Sanity_Test
+=2025-03-30 17:42:26 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-30 17:42:30 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-30 17:42:30 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-30 17:42:30 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-30 17:42:30 [TestNG-tests-1] INFO  - Started Test: DashboardPageTest => testAboutButton
+=2025-03-30 17:42:32 [TestNG-tests-1] INFO  - Clicked on profile name.
+=2025-03-30 17:42:32 [TestNG-tests-1] INFO  - Clicked on About button.
+=2025-03-30 17:42:33 [TestNG-tests-1] INFO  - Test Successful: DashboardPageTest => testAboutButton
+=2025-03-30 17:42:33 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-30 21:44:27 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-30 21:44:27 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_DashboardPage_Sanity_Test
+=2025-03-30 21:44:31 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-30 21:44:35 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-30 21:44:35 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-30 21:44:36 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-30 21:44:36 [TestNG-tests-1] INFO  - Started Test: DashboardPageTest => testSupportButton
+=2025-03-30 21:44:38 [TestNG-tests-1] INFO  - Clicked on profile name.
+=2025-03-30 21:44:39 [TestNG-tests-1] INFO  - Clicked on Support button.
+=2025-03-30 21:44:40 [TestNG-tests-1] INFO  - Test Skipped: DashboardPageTest => testSupportButton
+=2025-03-30 21:44:40 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-30 21:44:42 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-30 21:44:46 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-30 21:44:46 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-30 21:44:46 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-30 21:44:46 [TestNG-tests-1] INFO  - Started Test: DashboardPageTest => testSupportButton
+=2025-03-30 21:44:48 [TestNG-tests-1] INFO  - Clicked on profile name.
+=2025-03-30 21:44:49 [TestNG-tests-1] INFO  - Clicked on Support button.
+=2025-03-30 21:44:50 [TestNG-tests-1] INFO  - Test Failed: DashboardPageTest => testSupportButton
+=2025-03-30 21:44:51 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-30 21:45:16 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-30 21:45:16 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_DashboardPage_Sanity_Test
+=2025-03-30 21:45:18 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-30 21:45:23 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-30 21:45:23 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-30 21:45:23 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-30 21:45:23 [TestNG-tests-1] INFO  - Started Test: DashboardPageTest => testSupportButton
+=2025-03-30 21:45:25 [TestNG-tests-1] INFO  - Clicked on profile name.
+=2025-03-30 21:45:26 [TestNG-tests-1] INFO  - Clicked on Support button.
+=2025-03-30 21:45:27 [TestNG-tests-1] INFO  - Test Successful: DashboardPageTest => testSupportButton
+=2025-03-30 21:45:27 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-30 22:05:24 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-30 22:05:24 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_DashboardPage_Sanity_Test
+=2025-03-30 22:05:27 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-30 22:05:31 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-30 22:05:31 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-30 22:05:32 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-30 22:05:32 [TestNG-tests-1] INFO  - Started Test: DashboardPageTest => testChangePassword
+=2025-03-30 22:05:34 [TestNG-tests-1] INFO  - Clicked on profile name.
+=2025-03-30 22:05:35 [TestNG-tests-1] INFO  - Test Successful: DashboardPageTest => testChangePassword
+=2025-03-30 22:05:35 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-30 22:05:55 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-30 22:05:55 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_DashboardPage_Sanity_Test
+=2025-03-30 22:05:57 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-30 22:06:02 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-30 22:06:02 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-30 22:06:02 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-30 22:06:02 [TestNG-tests-1] INFO  - Started Test: DashboardPageTest => testChangePassword
+=2025-03-30 22:06:04 [TestNG-tests-1] INFO  - Clicked on profile name.
+=2025-03-30 22:06:05 [TestNG-tests-1] INFO  - Test Successful: DashboardPageTest => testChangePassword
+=2025-03-30 22:06:05 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-30 22:08:43 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-30 22:08:44 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_DashboardPage_Sanity_Test
+=2025-03-30 22:08:46 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-30 22:08:51 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-30 22:08:51 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-30 22:08:51 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-30 22:08:51 [TestNG-tests-1] INFO  - Started Test: DashboardPageTest => testChangePassword
+=2025-03-30 22:08:53 [TestNG-tests-1] INFO  - Clicked on profile name.
+=2025-03-30 22:09:05 [TestNG-tests-1] ERROR - Failed to read the text.
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h5[@class='oxd-text oxd-text--h5 orangehrm-login-title']"}
+  (Session info: chrome=134.0.6998.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [df70a3514d99f20786a3bee3fdea299e, findElement {value=//h5[@class='oxd-text oxd-text--h5 orangehrm-login-title'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\nurul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54797}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54797/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: df70a3514d99f20786a3bee3fdea299e
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.28.1.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy29.getText(Unknown Source) ~[?:?]
+	at com.orangehrm.pages.DashboardPage.readLoginText(DashboardPage.java:100) ~[classes/:?]
+	at com.orangehrm.tests.DashboardPageTest.testChangePassword(DashboardPageTest.java:46) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+=2025-03-30 22:09:05 [TestNG-tests-1] INFO  - Test Skipped: DashboardPageTest => testChangePassword
+=2025-03-30 22:09:05 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-30 22:09:06 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-30 22:09:11 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-30 22:09:11 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-30 22:09:11 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-30 22:09:11 [TestNG-tests-1] INFO  - Started Test: DashboardPageTest => testChangePassword
+=2025-03-30 22:09:14 [TestNG-tests-1] INFO  - Clicked on profile name.
+=2025-03-30 22:09:25 [TestNG-tests-1] ERROR - Failed to read the text.
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h5[@class='oxd-text oxd-text--h5 orangehrm-login-title']"}
+  (Session info: chrome=134.0.6998.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9040d2423904c7da5daf611b4ec9f41, findElement {value=//h5[@class='oxd-text oxd-text--h5 orangehrm-login-title'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\nurul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54831}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54831/devtoo..., se:cdpVersion: 134.0.6998.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d9040d2423904c7da5daf611b4ec9f41
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.28.1.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy29.getText(Unknown Source) ~[?:?]
+	at com.orangehrm.pages.DashboardPage.readLoginText(DashboardPage.java:100) ~[classes/:?]
+	at com.orangehrm.tests.DashboardPageTest.testChangePassword(DashboardPageTest.java:46) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+=2025-03-30 22:09:25 [TestNG-tests-1] INFO  - Test Failed: DashboardPageTest => testChangePassword
+=2025-03-30 22:09:25 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-30 22:38:13 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-30 22:38:13 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_DashboardPage_Sanity_Test
+=2025-03-30 22:38:16 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-30 22:38:20 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-30 22:38:20 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-30 22:38:21 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-30 22:38:21 [TestNG-tests-1] INFO  - Started Test: DashboardPageTest => testChangePasswordWithIncorrectCurrentPassword
+=2025-03-30 22:38:23 [TestNG-tests-1] INFO  - Clicked on profile name.
+=2025-03-30 22:38:24 [TestNG-tests-1] INFO  - Entered a current password. dsadsad
+=2025-03-30 22:38:25 [TestNG-tests-1] INFO  - Entered a new password. B35t4r1f1n@123
+=2025-03-30 22:38:25 [TestNG-tests-1] INFO  - Entered a confirm password. B35t4r1f1n@123
+=2025-03-30 22:38:25 [TestNG-tests-1] INFO  - Please enter the correct current password.
+=2025-03-30 22:38:25 [TestNG-tests-1] INFO  - Test Successful: DashboardPageTest => testChangePasswordWithIncorrectCurrentPassword
+=2025-03-30 22:38:25 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-30 22:48:00 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-30 22:48:01 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_DashboardPage_Sanity_Test
+=2025-03-30 22:48:04 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-30 22:48:09 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-30 22:48:09 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-30 22:48:09 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-30 22:48:09 [TestNG-tests-1] INFO  - Started Test: DashboardPageTest => testChangePasswordWithIncorrectConfirmPassword
+=2025-03-30 22:48:11 [TestNG-tests-1] INFO  - Clicked on profile name.
+=2025-03-30 22:48:13 [TestNG-tests-1] INFO  - Entered a current password. admin123
+=2025-03-30 22:48:13 [TestNG-tests-1] INFO  - Entered a new password. B35t4r1f1n@123
+=2025-03-30 22:48:13 [TestNG-tests-1] INFO  - Entered a confirm password. B35t4r1f1n@3
+=2025-03-30 22:48:13 [TestNG-tests-1] INFO  - Test Successful: DashboardPageTest => testChangePasswordWithIncorrectConfirmPassword
+=2025-03-30 22:48:14 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-30 22:49:01 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-30 22:49:02 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_DashboardPage_Sanity_Test
+=2025-03-30 22:49:04 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-30 22:49:08 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-30 22:49:08 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-30 22:49:08 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-30 22:49:08 [TestNG-tests-1] INFO  - Started Test: DashboardPageTest => testChangePasswordWithIncorrectConfirmPassword
+=2025-03-30 22:49:10 [TestNG-tests-1] INFO  - Clicked on profile name.
+=2025-03-30 22:49:12 [TestNG-tests-1] INFO  - Entered a current password. admin123
+=2025-03-30 22:49:12 [TestNG-tests-1] INFO  - Entered a new password. B35t4r1f1n@123
+=2025-03-30 22:49:12 [TestNG-tests-1] INFO  - Entered a confirm password. B35t4r1f1n@3
+=2025-03-30 22:49:12 [TestNG-tests-1] INFO  - Test Skipped: DashboardPageTest => testChangePasswordWithIncorrectConfirmPassword
+=2025-03-30 22:49:13 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-30 22:49:14 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-30 22:49:18 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-30 22:49:19 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-30 22:49:19 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-30 22:49:19 [TestNG-tests-1] INFO  - Started Test: DashboardPageTest => testChangePasswordWithIncorrectConfirmPassword
+=2025-03-30 22:49:21 [TestNG-tests-1] INFO  - Clicked on profile name.
+=2025-03-30 22:49:22 [TestNG-tests-1] INFO  - Entered a current password. admin123
+=2025-03-30 22:49:22 [TestNG-tests-1] INFO  - Entered a new password. B35t4r1f1n@123
+=2025-03-30 22:49:23 [TestNG-tests-1] INFO  - Entered a confirm password. B35t4r1f1n@3
+=2025-03-30 22:49:23 [TestNG-tests-1] INFO  - Test Failed: DashboardPageTest => testChangePasswordWithIncorrectConfirmPassword
+=2025-03-30 22:49:23 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-30 22:49:47 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-30 22:49:47 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_DashboardPage_Sanity_Test
+=2025-03-30 22:49:50 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-30 22:49:54 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-30 22:49:54 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-30 22:49:54 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-30 22:49:54 [TestNG-tests-1] INFO  - Started Test: DashboardPageTest => testChangePasswordWithIncorrectCurrentPassword
+=2025-03-30 22:49:56 [TestNG-tests-1] INFO  - Clicked on profile name.
+=2025-03-30 22:49:57 [TestNG-tests-1] INFO  - Entered a current password. dsadsad
+=2025-03-30 22:49:57 [TestNG-tests-1] INFO  - Entered a new password. B35t4r1f1n@123
+=2025-03-30 22:49:57 [TestNG-tests-1] INFO  - Entered a confirm password. B35t4r1f1n@123
+=2025-03-30 22:49:57 [TestNG-tests-1] INFO  - Please enter the correct current password.
+=2025-03-30 22:49:57 [TestNG-tests-1] INFO  - Test Successful: DashboardPageTest => testChangePasswordWithIncorrectCurrentPassword
+=2025-03-30 22:49:58 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-30 22:50:18 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-30 22:50:19 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_DashboardPage_Sanity_Test
+=2025-03-30 22:50:21 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-30 22:50:25 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-30 22:50:25 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-30 22:50:25 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-30 22:50:25 [TestNG-tests-1] INFO  - Started Test: DashboardPageTest => testChangePasswordWithIncorrectCurrentPassword
+=2025-03-30 22:50:27 [TestNG-tests-1] INFO  - Clicked on profile name.
+=2025-03-30 22:50:29 [TestNG-tests-1] INFO  - Entered a current password. dsadsad
+=2025-03-30 22:50:29 [TestNG-tests-1] INFO  - Entered a new password. B35t4r1f1n@123
+=2025-03-30 22:50:29 [TestNG-tests-1] INFO  - Entered a confirm password. B35t4r1f1n@123
+=2025-03-30 22:50:29 [TestNG-tests-1] INFO  - Please enter the correct current password.
+=2025-03-30 22:50:29 [TestNG-tests-1] INFO  - Test Successful: DashboardPageTest => testChangePasswordWithIncorrectCurrentPassword
+=2025-03-30 22:50:30 [TestNG-tests-1] INFO  - Closing the browser - Chrome
+=2025-03-30 22:53:06 [main] INFO  - Starting Execution for Test Suite => Orangehrm_Sanity_Suite with Tag => sanity1
+=2025-03-30 22:53:06 [TestNG-tests-1] INFO  - Starting Execution for Test=> Orangehrm_DashboardPage_Sanity_Test
+=2025-03-30 22:53:09 [TestNG-tests-1] INFO  - Opening the browser - Chrome
+=2025-03-30 22:53:13 [TestNG-tests-1] INFO  - Entered username: Admin
+=2025-03-30 22:53:13 [TestNG-tests-1] INFO  - Entered password: admin123
+=2025-03-30 22:53:13 [TestNG-tests-1] INFO  - Clicked on the login button.
+=2025-03-30 22:53:14 [TestNG-tests-1] INFO  - Started Test: DashboardPageTest => testChangePasswordWithValidCredentials
+=2025-03-30 22:53:15 [TestNG-tests-1] INFO  - Clicked on profile name.
+=2025-03-30 22:53:17 [TestNG-tests-1] INFO  - Entered a current password. admin123
+=2025-03-30 22:53:17 [TestNG-tests-1] INFO  - Entered a new password. admin123
+=2025-03-30 22:53:18 [TestNG-tests-1] INFO  - Entered a confirm password. admin123
+=2025-03-30 22:53:18 [TestNG-tests-1] INFO  - Password updated successfully.
+=2025-03-30 22:53:18 [TestNG-tests-1] INFO  - Test Successful: DashboardPageTest => testChangePasswordWithValidCredentials
+=2025-03-30 22:53:18 [TestNG-tests-1] INFO  - Closing the browser - Chrome
