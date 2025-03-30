@@ -1,61 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-28T15:45:12 ICT" name="Orangehrm_Sanity_Suite" finished-at="2025-03-28T15:45:23 ICT" duration-ms="10690">
+  <suite started-at="2025-03-30T16:58:03 ICT" name="Orangehrm_Sanity_Suite" finished-at="2025-03-30T16:58:44 ICT" duration-ms="40464">
     <groups>
-      <group name="sanity1">
-        <method signature="ForgotPasswordPageTest.testForgotPasswordHeaderText()[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@41709512]" name="testForgotPasswordHeaderText" class="com.orangehrm.tests.ForgotPasswordPageTest"/>
-      </group> <!-- sanity1 -->
+      <group name="sanity">
+        <method signature="ForgotPasswordPageTest.shouldAllowPasswordResetForValidUsername()[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@648c94da]" name="shouldAllowPasswordResetForValidUsername" class="com.orangehrm.tests.ForgotPasswordPageTest"/>
+        <method signature="ForgotPasswordPageTest.testCancelButton()[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@648c94da]" name="testCancelButton" class="com.orangehrm.tests.ForgotPasswordPageTest"/>
+        <method signature="ForgotPasswordPageTest.testForgotPasswordHeaderText()[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@648c94da]" name="testForgotPasswordHeaderText" class="com.orangehrm.tests.ForgotPasswordPageTest"/>
+        <method signature="ForgotPasswordPageTest.testLeaveUsernameEmpty()[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@648c94da]" name="testLeaveUsernameEmpty" class="com.orangehrm.tests.ForgotPasswordPageTest"/>
+      </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-03-28T15:45:12 ICT" name="Orangehrm_ForgotPasswordPage_Sanity_Test" finished-at="2025-03-28T15:45:23 ICT" duration-ms="10690">
+    <test started-at="2025-03-30T16:58:03 ICT" name="Orangehrm_ForgotPasswordPage_Sanity_Test" finished-at="2025-03-30T16:58:44 ICT" duration-ms="40464">
       <class name="com.orangehrm.tests.ForgotPasswordPageTest">
-        <test-method is-config="true" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@41709512]" started-at="2025-03-28T15:45:12 ICT" name="beforeSuite" finished-at="2025-03-28T15:45:12 ICT" duration-ms="385" status="PASS">
+        <test-method is-config="true" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@648c94da]" started-at="2025-03-30T16:58:03 ICT" name="beforeSuite" finished-at="2025-03-30T16:58:03 ICT" duration-ms="554" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5b3f3ba0]]>
+                <![CDATA[org.testng.TestRunner@7fedfe27]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="setUpTest(org.testng.ITestContext)[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@41709512]" started-at="2025-03-28T15:45:12 ICT" name="setUpTest" finished-at="2025-03-28T15:45:12 ICT" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="setUpTest(org.testng.ITestContext)[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@648c94da]" started-at="2025-03-30T16:58:03 ICT" name="setUpTest" finished-at="2025-03-30T16:58:03 ICT" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5b3f3ba0]]>
+                <![CDATA[org.testng.TestRunner@7fedfe27]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@41709512]" started-at="2025-03-28T15:45:12 ICT" name="setUp" finished-at="2025-03-28T15:45:17 ICT" duration-ms="5039" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@648c94da]" started-at="2025-03-30T16:58:03 ICT" name="setUp" finished-at="2025-03-30T16:58:10 ICT" duration-ms="6968" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUpPageForgotPassword()[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@41709512]" started-at="2025-03-28T15:45:17 ICT" name="setUpPageForgotPassword" finished-at="2025-03-28T15:45:22 ICT" duration-ms="4320" status="PASS">
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@648c94da]" started-at="2025-03-30T16:58:10 ICT" name="setUpPage" finished-at="2025-03-30T16:58:13 ICT" duration-ms="2415" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpPageForgotPassword -->
-        <test-method signature="testForgotPasswordHeaderText()[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@41709512]" started-at="2025-03-28T15:45:22 ICT" name="testForgotPasswordHeaderText" finished-at="2025-03-28T15:45:22 ICT" duration-ms="643" status="PASS">
+        </test-method> <!-- setUpPage -->
+        <test-method signature="shouldAllowPasswordResetForValidUsername()[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@648c94da]" started-at="2025-03-30T16:58:13 ICT" name="shouldAllowPasswordResetForValidUsername" finished-at="2025-03-30T16:58:15 ICT" duration-ms="2511" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testForgotPasswordHeaderText -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@41709512]" started-at="2025-03-28T15:45:22 ICT" name="tearDown" finished-at="2025-03-28T15:45:23 ICT" duration-ms="603" status="PASS">
+        </test-method> <!-- shouldAllowPasswordResetForValidUsername -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@648c94da]" started-at="2025-03-30T16:58:15 ICT" name="tearDown" finished-at="2025-03-30T16:58:16 ICT" duration-ms="430" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testForgotPasswordHeaderText status=SUCCESS method=ForgotPasswordPageTest.testForgotPasswordHeaderText()[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@41709512] output={null}]]]>
+                <![CDATA[[TestResult name=shouldAllowPasswordResetForValidUsername status=SUCCESS method=ForgotPasswordPageTest.shouldAllowPasswordResetForValidUsername()[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@648c94da] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@41709512]" started-at="2025-03-28T15:45:23 ICT" name="generateReport" finished-at="2025-03-28T15:45:24 ICT" duration-ms="869" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@648c94da]" started-at="2025-03-30T16:58:16 ICT" name="setUp" finished-at="2025-03-30T16:58:21 ICT" duration-ms="5796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@648c94da]" started-at="2025-03-30T16:58:21 ICT" name="setUpPage" finished-at="2025-03-30T16:58:23 ICT" duration-ms="1531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="testCancelButton()[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@648c94da]" started-at="2025-03-30T16:58:23 ICT" name="testCancelButton" finished-at="2025-03-30T16:58:24 ICT" duration-ms="1091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCancelButton -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@648c94da]" started-at="2025-03-30T16:58:24 ICT" name="tearDown" finished-at="2025-03-30T16:58:24 ICT" duration-ms="300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCancelButton status=SUCCESS method=ForgotPasswordPageTest.testCancelButton()[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@648c94da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@648c94da]" started-at="2025-03-30T16:58:24 ICT" name="setUp" finished-at="2025-03-30T16:58:32 ICT" duration-ms="7925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@648c94da]" started-at="2025-03-30T16:58:32 ICT" name="setUpPage" finished-at="2025-03-30T16:58:34 ICT" duration-ms="1832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="testForgotPasswordHeaderText()[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@648c94da]" started-at="2025-03-30T16:58:34 ICT" name="testForgotPasswordHeaderText" finished-at="2025-03-30T16:58:35 ICT" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotPasswordHeaderText -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@648c94da]" started-at="2025-03-30T16:58:35 ICT" name="tearDown" finished-at="2025-03-30T16:58:35 ICT" duration-ms="351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testForgotPasswordHeaderText status=SUCCESS method=ForgotPasswordPageTest.testForgotPasswordHeaderText()[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@648c94da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@648c94da]" started-at="2025-03-30T16:58:35 ICT" name="setUp" finished-at="2025-03-30T16:58:41 ICT" duration-ms="5431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@648c94da]" started-at="2025-03-30T16:58:41 ICT" name="setUpPage" finished-at="2025-03-30T16:58:43 ICT" duration-ms="2040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="testLeaveUsernameEmpty()[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@648c94da]" started-at="2025-03-30T16:58:43 ICT" name="testLeaveUsernameEmpty" finished-at="2025-03-30T16:58:43 ICT" duration-ms="843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLeaveUsernameEmpty -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@648c94da]" started-at="2025-03-30T16:58:43 ICT" name="tearDown" finished-at="2025-03-30T16:58:44 ICT" duration-ms="295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLeaveUsernameEmpty status=SUCCESS method=ForgotPasswordPageTest.testLeaveUsernameEmpty()[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@648c94da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.orangehrm.tests.ForgotPasswordPageTest@648c94da]" started-at="2025-03-30T16:58:44 ICT" name="generateReport" finished-at="2025-03-30T16:58:45 ICT" duration-ms="1032" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->

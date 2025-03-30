@@ -15,7 +15,7 @@
         <methods>
           <include name="generateReport"/>
           <include name="beforeSuite"/>
-          <include name="testForgotPasswordPageTitle"/>
+          <include name="testCancelButton"/>
           <include name="setUpPageForgotPassword"/>
           <include name="setUp"/>
           <include name="tearDown"/>
